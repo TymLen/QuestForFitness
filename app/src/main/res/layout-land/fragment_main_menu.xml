@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainMenuFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TitleText"
+                android:shadowColor ="#000"
+                android:shadowRadius="5.0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/TitleText"
+                android:textColor="@android:color/white"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/CheckinBut"
+                style="@style/ButtonMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CheckIn"
+                android:fontFamily="@font/generalrpg"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/LevelUpBut"
+                style="@style/ButtonMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/generalrpg"
+                android:text="@string/LevelUp"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/LogbookBut"
+                style="@style/ButtonMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/generalrpg"
+                android:text="@string/Logbook"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/ExitBut"
+                style="@style/ButtonMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/generalrpg"
+                android:text="@string/Exit"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/DebugText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor ="@color/white"
+                android:textSize="24sp"
+                android:text="@string/DebugHint" />
+
+            <EditText
+                android:id="@+id/debugDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

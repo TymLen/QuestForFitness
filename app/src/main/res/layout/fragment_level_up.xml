@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".LevelUpPhotoFrag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/rpgborder">
+
+        <TextView
+            android:id="@+id/PhotoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/generalrpg"
+            android:textColor="@color/white"
+            android:text="@string/PhotoTitle"
+            android:textSize="36sp" />
+        <ImageView
+            android:id="@+id/PhotoView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/rpgborder"
+            android:textColor="@color/white"
+            android:contentDescription="@string/PhotoPreview"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/TakePhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/generalrpg"
+                android:layout_weight="1"
+                style="@style/ButtonMenu"
+                android:textColor="@color/white"
+                android:text="@string/TakePhoto"
+                android:background="@drawable/rpgborder"/>
+
+            <Button
+                android:id="@+id/ReturnPhoto"
+                style="@style/ButtonMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/generalrpg"
+                android:layout_weight="1"
+                android:text="@string/ConfirmPhoto"
+                android:textColor="@color/white"
+                android:background="@drawable/rpgborder"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

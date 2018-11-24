@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rpgborder"
+    tools:context=".CheckinWeightFrag">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/WeightText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/generalrpg"
+                    android:text="@string/WeightText"
+                    android:textColor="@android:color/white"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/EnterWeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:fontFamily="@font/generalrpg"
+                    android:hint="@string/WeightHint"
+                    android:inputType="textPersonName|numberSigned"
+                    android:textColor="@android:color/white"
+                    android:textSize="22dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/SubmitBut"
+                style="@style/ButtonMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/generalrpg"
+                android:text="@string/Submit"
+                android:textSize="22dp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">QuestForFitness</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="DLevel">Level 0</string>
+    <string name="TitleText">Quest for Fitness</string>
+    <string name="CheckIn">Check In</string>
+    <string name="LevelUp">Level Up</string>
+    <string name="Logbook">Logbook</string>
+    <string name="Exit">Exit</string>
+    <string name="MainMenu">Main Menu</string>
+    <string name="EnterAction">What do you do?</string>
+    <string name="WeightText">Enter weight:</string>
+    <string name="Submit">Submit</string>
+    <string name="FeatHint">Enter your Feat</string>
+    <string name="WeightHint">Numbers only</string>
+    <string name="Congratulations">Hero Promotion</string>
+    <string name="TakePhoto">Take Photo</string>
+    <string name="PhotoPreview">Photo Preview</string>
+    <string name="SkipOption">Skip Photo</string>
+    <string name="Dates">Between date and date</string>
+    <string name="ConfirmPhoto">Level up!</string>
+    <string name="PhotoTitle">Hero Portrait</string>
+    <string name="DebugHint">Change Date Here:</string>
+    <string name="LevelChange">Now Fitness Level %1$d</string>
+    <string name="LastDate">Last Adventure %1$s</string>
+    <string name="FirstDate">First Adventure %1$s</string>
+    <string name="StrUsed">Strength Used: %1$d</string>
+    <string name="DexUsed">Dexterity Used: %1$d</string>
+    <string name="RestUsed">Rested: %1$d</string>
+    <string name="WeightChanged">Weight Change: %1$s</string>
+    <string name="RetakePhoto">Retake Photo</string>
+    <string name="FitnessLevel">Fitness Level: %1$d</string>
+    <string name="DateRange">Log date: %1$s to %2$s</string>
+</resources>
